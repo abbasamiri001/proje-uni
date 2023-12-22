@@ -13,6 +13,15 @@ public:
         days = d ;
     }
 };
+class wikend
+{
+private:
+    string a ;
+public:
+    void get_wikend (string name_wikend){
+        a =name_wikend ;
+    }
+};
 
 int main()
 {
