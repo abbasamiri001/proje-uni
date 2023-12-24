@@ -22,6 +22,16 @@ public:
         a =name_wikend ;
     }
 };
+class id_student{
+private:
+    int id ;
+    string name ;
+public:
+    void set_id (int a ){ id = a ;}
+    void set_name_stu(string n ){ name = n  ;}
+    int get_id (){return id ;}
+    void get_name_stu (){cout <<"name:"<< name<< " id : " << id << endl  ;}
+};
 
 int main()
 {
