@@ -37,6 +37,22 @@ public:
     void get_name_stu (){cout <<"name:"<< name<< " id : " << id << endl  ;}
 };
 
+class data_lesson{
+   private :
+    string ID , name_lesson  , name_techer,  video_projector;
+
+public:
+    void set_id(string i) { ID = i ; }
+    void set_name_lesson (string nl){ name_lesson = nl;}
+    void set_name_techer (string tch){ name_techer = tch ;}
+    void set_projec (char yn ) { video_projector = yn ;}
+
+    string get_id (){ return ID;}
+    string get_name_lesson (){ return name_lesson;}
+    string get_name_techer (){ return name_techer;}
+    string get_projector (){ return video_projector;}
+};
+
 int main()
 {
 
