@@ -36,6 +36,7 @@ public:
     int get_id (){return id ;}
     void get_name_stu (){cout <<"name:"<< name<< " id : " << id << endl  ;}
 };
+<<<<<<< HEAD
 
 class data_lesson{
    private :
@@ -52,6 +53,8 @@ public:
     string get_name_techer (){ return name_techer;}
     string get_projector (){ return video_projector;}
 };
+=======
+>>>>>>> origin/id-student
 
 int main()
 {
